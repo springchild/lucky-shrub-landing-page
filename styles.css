@@ -1,6 +1,6 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
-    margin: 3rem 5%;
+    margin: 3em 10%;
 }
 h1 {
     font-size: 3rem;
@@ -9,24 +9,44 @@ h2 {
     font-size: 2rem;
 }
 
+nav {
+    margin: 1em 0;
+    background-color: rgb(39, 135, 127);
+    border-radius: 1em;;
+}
 nav ul {
     list-style: none;
     text-align: center;
 }
 nav li {
-    display: inline;
-    justify-content: space-between;
-    
+    display: inline-flex;
+    justify-content: space-around;
 }
+ nav a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 1em;
+ } 
+ nav a:hover {
+    text-decoration: underline;
+ }  
 
 section {
     display: flex;
 }
+
 article {
     flex: 1;
+    border: 2px solid rgb(39, 135, 127);
+    border-radius: 1em;
+    margin: 1em 0.5em;
 }
 article h2 {
     text-align: center;
+    margin: 0 0.5em;
+}
+article p {
+    margin: 1em;
 }
 
 footer {
@@ -39,4 +59,15 @@ footer div {
     display: block;
     margin: 0 auto;
     max-height: 250px;
+}
+#promo-banner {
+    border: 2px solid rgb(39, 135, 127);
+    background-color: rgba(39, 135, 127, 0.2);
+    border-radius: 1em;
+}
+#promo-banner h2 {
+    margin: 5px auto;
+}
+#copyright {
+    text-align: right;
 }
