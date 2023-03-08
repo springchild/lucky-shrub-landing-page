@@ -3,7 +3,10 @@ body {
     margin: 3em 10%;
 }
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+    color: rgb(39, 135, 127);
+    text-align: center;
+    font-weight: 500;
 }
 h2 {
     font-size: 2rem;
@@ -47,10 +50,15 @@ article h2 {
 }
 article p {
     margin: 1em;
+    line-height: 1.5em;
 }
-
+.article-img {
+    display: block;
+    margin: 0 auto;
+}
 footer {
     display: flex;
+    margin: 0 1em;
 }
 footer div {
     flex: 1;
@@ -70,4 +78,5 @@ footer div {
 }
 #copyright {
     text-align: right;
+    color: rgb(39, 135, 127);
 }
